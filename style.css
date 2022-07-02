@@ -1,0 +1,29 @@
+#cards{
+    margin: 0%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   padding-right: 10px ;
+   justify-content: space-between;
+    background-image: url(https://nowtoronto.com/wp-content/uploads/2020/06/reading-book-unsplash-980x618.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+color:white;
+}
+#card{
+    width:23%;
+    box-shadow: 0 0 4px 3px grey;
+    padding:1.5em;
+    margin-top:2em;
+    margin-bottom:2em;
+    border-radius:5px;
+
+}
+.heading{
+    color:white;
+   
+}
+
+#card:hover {
+    padding:10px;
+  }
